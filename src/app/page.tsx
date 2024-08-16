@@ -28,7 +28,7 @@ export default function Home() {
         setTurn(false)
         break;
         case 'O':
-          setPlayer2(player2 + 2)
+          setPlayer2(player2 + 1)
           alert('Player2 win!!!')
           setBoard(Array(9).fill(null))
           setTurn(true)
